@@ -4,25 +4,25 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
-int Prompt (string message)
-    {
-        Console.Write(message);
-        int result = Convert.ToInt32(Console.ReadLine());
-        return result;
-    }
+//int Prompt (string message)
+//    {
+//        Console.Write(message);
+//        int result = Convert.ToInt32(Console.ReadLine());
+//        return result;
+//    }
+//
+//int NaturalNumb(int n, int m)
+//    {   
+//        if (n == m) return n;
+//        else Console.Write($"{NaturalNumb(n, m +1)} ");
+//        return m;
+//    }
 
-int NaturalNumber(int n, int m)
-    {   
-        if (n == m) return n;
-        else Console.Write($"{NaturalNumber(n, m +1)}");
-        return m;
-    }
+//int n = Prompt("Введите число:");
+//if (n < 1) //На случай ввода отрицательного числа, или нуля
+//    {
+//        Console.WriteLine("Число должно быть положительным!");
+//        return;   
+//    }
 
-int n = Prompt("Введите число:");
-if (n < 1) //На случай ввода отрицательного числа, или нуля
-    {
-        Console.WriteLine("Число должно быть положительным!");
-        return;   
-    }
-
-Console.WriteLine(NaturalNumber(n, 1));
+//Console.WriteLine(NaturalNumb(n, 1));
