@@ -50,6 +50,6 @@ int SumOfNumb(int n, int m)
     }
 
 int n = Prompt("Введите первое число:");
-int n = Prompt("Введите второе число:");
+int m = Prompt("Введите второе число:");
 
 Console.WriteLine(SumOfNumb(n, m));
