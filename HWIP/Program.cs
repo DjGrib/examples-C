@@ -36,20 +36,20 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-int Prompt(string message)
-    {
-        Console.Write(message);
-        int result = Convert.ToInt32(Console.ReadLine());
-        return result;
-    }
+//int Prompt(string message)
+//    {
+//        Console.Write(message);
+//        int result = Convert.ToInt32(Console.ReadLine());
+//        return result;
+//    }
+//
+//int SumOfNumb(int n, int m)
+//    {
+//        if (n == m) return n;
+//        else return SumOfNumb(n +1, m) + n;
+//    }
+//
+//int n = Prompt("Введите первое число: ");
+//int m = Prompt("Введите второе число: ");
 
-int SumOfNumb(int n, int m)
-    {
-        if (n == m) return n;
-        else return SumOfNumb(n +1, m) + n;
-    }
-
-int n = Prompt("Введите первое число: ");
-int m = Prompt("Введите второе число: ");
-
-Console.WriteLine(SumOfNumb(n, m));
+//Console.WriteLine(SumOfNumb(n, m));
