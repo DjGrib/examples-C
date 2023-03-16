@@ -19,10 +19,10 @@ int NaturalNumber(int n, int m)
     }
 
 int n = Prompt("Введите число:");
-if (n < 1)
+if (n < 1) //На случай ввода отрицательного числа, или нуля
     {
         Console.WriteLine("Число должно быть положительным!");
         return;   
     }
 
-Console.WriteLine(NaturalNumber(n,1));
+Console.WriteLine(NaturalNumber(n, 1));
